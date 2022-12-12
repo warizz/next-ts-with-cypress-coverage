@@ -1,0 +1,10 @@
+name: UI Tests
+on: push
+jobs:
+  test:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: yarn
+      - run: npx start-server-and-test dev "http://localhost:3000" "npx cypress run"

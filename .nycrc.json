@@ -4,6 +4,5 @@
   "exclude": ["pages/api/__coverage__.js"],
   "all": true,
   "sourceMap": true,
-  "instrument": true,
-  "reporter": ["text", "text-summary"]
+  "instrument": true
 }

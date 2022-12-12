@@ -19,7 +19,8 @@
     "report-dir": "cypress-coverage",
     "reporter": [
       "json",
-      "lcov"
+      "lcov",
+      "text-summary"
     ]
   },
   "devDependencies": {
